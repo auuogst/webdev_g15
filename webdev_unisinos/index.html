@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <button class="header-button"><img src="img/backarrow.png" alt="Voltar Icon">Voltar</button>
+            <button class="header-button"><img src="img/photo.png" alt="Fotógrafos Icon">Fotógrafos</button>
+            <button class="header-button"><img src="img/uniform.png" alt="Vestuário Icon">Vestuário</button>
+            <button class="header-button"><img src="img/organize.png" alt="Organizadores Icon">Organizadores</button>
+        </div>
+    </header>
+    <main>
+        <div class="search-bar">
+            <label for="search-input" class="hidden">filtros</label>
+            <select class="filter">
+                <option value="">avaliação</option>
+                <option value="option1">crescente</option>
+                <option value="option2">decrescente</option>
+                <option value="option3">5 estrelas</option>
+                <option value="option4">4 estrelas</option>
+                <option value="option5">3 estrelas</option>
+                <option value="option6">2 estrelas</option>
+                <option value="option7">1 estrela</option>
+            </select>
+            <select class="filter">
+                <option value="">preço</option>
+                <option value="option1">crescente</option>
+                <option value="option2">decrescente</option>
+                <option value="option3">$$$</option>
+                <option value="option4">$$</option>
+                <option value="option5">$</option>
+            </select>
+            <select class="filter">
+                <option value="">evento</option>
+                <option value="option1">formatura</option>
+                <option value="option2">casamento</option>
+                <option value="option3">aniversário</option>
+                <option value="option4">corporativo</option>
+                <option value="option5">outro</option>
+            </select>
+            <select class="filter">
+                <option value="">local</option>
+                <option value="option1">Porto Alegre, RS</option>
+                <option value="option2">São Leopoldo, RS</option>
+                <option value="option3">Novo Hamburgo, RS</option>
+                <option value="option4">Canoas, RS</option>
+                <option value="option5">Gravataí, RS</option>
+            </select>
+            <button id="search-button">Buscar</button>
+        </div>
+        <div class="results">
+            <div class="result-item">
+                <img src="image1.jpg" alt="foto negocio">
+                <p>Nome: 
+                    <span>Nome do Negócio</span>
+                    Faixa de Preço:
+                    <span>$$$</span>
+                    Avaliação:
+                    <span>5 estrelas</span>
+                </p>
+            </div>
+            <div class="result-item">
+                <img src="image1.jpg" alt="foto negocio">
+                <p>Nome: 
+                    <span>Nome do Negócio</span>
+                    Faixa de Preço:
+                    <span>$$$</span>
+                    Avaliação:
+                    <span>5 estrelas</span>
+                </p>
+            </div>
+            <div class="result-item">
+                <img src="image1.jpg" alt="foto negocio">
+                <p>Nome: 
+                    <span>Nome do Negócio</span>
+                    Faixa de Preço:
+                    <span>$$$</span>
+                    Avaliação:
+                    <span>5 estrelas</span>
+                </p>
+            </div>
+            <!-- Additional result items here -->
+        </div>
+    </main>
+</body>
+<script defer src="script.js"></script>
+</html>
